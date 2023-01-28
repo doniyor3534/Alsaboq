@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Inria Sans';
+}
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: auto;
+    padding: 10px 5%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+nav  ul a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+
+}
+.buyurtma{
+    padding: 10px 25px;
+    background: #FF9E67;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    color:white;
+    font-size: 25px;
+    border: none;
+}
+/* ///////////sec1 */
+.sec1{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/Rectangle\ 51.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 45px;
+}
+.sec1 .sec1text{
+    width: 40%;
+    height: auto;
+    padding-bottom: 25px;
+}
+.sec1 .sec1text h1{
+   color: #000000;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 58px;
+}
+.sec1 .sec1text span{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #C98A3B;
+}
+.sec1 .sec1img{
+    width: 30%;
+    height: auto;
+}
+
+/* sec2 */
+.sec2{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/Rectangle\ 58.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     padding: 15vh 6%;
+}
+.title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 50px;
+    color: #C98A3B;
+}
+.sec2body{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    justify-content: space-between;
+}
+.sec2left{
+    width: 100%;
+}
+.sec2left img{
+    width: 100%;
+}
+.sec2right ul li{
+    list-style:decimal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+/* sec3 */
+.sec3{
+    width: 100%;
+    height: 700px;
+    padding: 50px 6%;
+    position: relative;
+    text-align: center;
+}
+
+.sec3 .bg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.sec3 .bg2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.narxlarcard{
+    width: 70%;
+    background-color: white;
+    border: grey 3px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 25px;
+
+}
+.narxlarcard h5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.eskinarx{
+    color: red;
+}
+.tejash{
+    color: grey;
+}
+.vaqtcard{
+    width: 45%;
+    height: auto;
+    background-color: white;
+    border: grey 3px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;  
+    font-size: 25px;
+}
+.vaqtcard h2{
+    display: flex;
+    flex-direction: column;
+}
+.vaqtcard span{
+    color: grey;
+}
+/* sec4 */
+.sec4{
+    width: 100%;
+    height: auto;
+    padding: 10vh 6%;
+}
+.sec4form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+.sec4form input{
+   background: #FFFFFF;
+   box-shadow: 2px 1px 4px 3px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   padding: 10px 15px;
+   outline: none;
+   border: none;
+   font-size: 35px;
+}
+.buyurtma2{
+     background: #C98A3B;
+     box-shadow: 2px 1px 4px 3px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     padding: 10px 15px;
+     outline: none;
+     border: none;
+     font-size: 35px;
+     color: white;
+     cursor: pointer;
+     transition: all 0.2s ease-in-out;
+}
+.buyurtma2:hover{
+    transform: scale(0.98);
+}
+.sec4cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap: 20px;
+}
+.sec4card{
+    width: 100%;
+    height: auto;
+    transition: all 0.4s ease;
+}
+.sec4card:hover{
+    transform: scale(1.050);
+}
+.sec4card img{
+    width: 100%;
+    height: 250px;
+}
+.sec4card p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* sec5 */
+.sec5{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/Rectangle\ 72.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10vh;
+}
+.title2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 84px;
+
+    color: #FF9E67;
+
+}
+.sec5 h6{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+/* sec6 */
+.sec6{
+    width: 100%;
+    height: auto;
+    padding: 10vh;
+}
+.sec6cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px;
+}
+.sec6card{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px 0px;
+}
+.sec6card span{
+    width: 70px;
+    height: 70px;
+    background-color: #FF9E67;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.sec6card h6{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #000000;
+
+}
+/* sec7 */
+.sec7{
+    width: 100%;
+    height: 800px;
+    padding: 6%;
+    background-image:linear-gradient(rgba(60, 59, 59, 0.63),rgba(89, 87, 87, 0.664)),url(./img/Madinah.webp) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.sec7title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.sec7cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sec7card{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin: 50px 0px;
+    gap: 15px;
+    padding: 15px;
+}
+.sec7card h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.sec7card p{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: -0.02em;
+
+   color: #FFFFFF;
+}
+
+/* sec8 */
+.sec8{
+    width: 100%;
+    height: auto;
+    padding: 6%;
+}
+.sec8cards{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.sec8card{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec8card:hover{
+    box-shadow: #545353 2px 12px 17px;
+    transform: scale(1.01);
+}
+/* sec9 */
+.sec9{
+    width: 100%;
+    height: auto;
+    padding: 20px 6%;
+    background-image: url(./img/Rectangle\ 17.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.sec9 .title2{
+    margin-bottom: 15px;
+}
+
+/* sec10 */
+.sec10{
+    width: 100%;
+    height: 600px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sec10left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sec10left h6{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+
+    color: #000000
+}
+.sec10left a{
+    color: #4d4a4a;
+    font-size: 20px;
+}
+.sec10right{
+    width: 100%;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social svg{
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+.social svg:hover{
+    transform: translateY(-4px);
+}
+.instagram svg{
+    color:rgb(202, 17, 215);
+}
+.youtube svg{
+    color:red;
+}
+.telegram svg{
+    color:rgb(7, 115, 223);
+}
+
+.info{
+    display: inline-block;
+    font-size: 25px;
+    color: grey;
+    text-align: center;
+}
+
+
+
+
+
